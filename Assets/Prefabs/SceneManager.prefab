@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2016241703392517103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2016241703392517101}
+  - component: {fileID: 2016241703392517102}
+  - component: {fileID: 2016241703392517107}
+  - component: {fileID: 2016241703392517106}
+  - component: {fileID: 5157999864018452453}
+  - component: {fileID: 4916003355171042686}
+  - component: {fileID: 2674888380010685069}
+  m_Layer: 0
+  m_Name: SceneManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2016241703392517101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016241703392517103}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2016241703392517102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016241703392517103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 063238297c9f20745bc6748bf9695cd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  redCamera: {fileID: 0}
+  blueCamera: {fileID: 0}
+  PortalMaterial: {fileID: 2100000, guid: 1a33515fa3687604ba926a956fcae95f, type: 2}
+--- !u!114 &2016241703392517107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016241703392517103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff6e81d88b261464b83b44ee83a23c3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floatingText: {fileID: 6273371588240677067, guid: 146531410dafd0b46b62e6df19eb66c7, type: 3}
+  floatingTextAmount: 10
+  ennemyBullet: {fileID: 0}
+  ennemyBulletAmount: 0
+  normalVFX: {fileID: 9214025440273711508, guid: 66c6181b2a4a69a4097347110adbcede, type: 3}
+  normalVFXAmount: 10
+  criticalVFX: {fileID: 1403359999081221360, guid: 3f3a5d906f0395647a5750208c79f8b9, type: 3}
+  criticalVFXAmount: 10
+--- !u!114 &2016241703392517106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016241703392517103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cab115af95581d4189f15853b746286, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Jump: 1
+  DoubleJump: 1
+  WallRide: 1
+  Teleport: 1
+  Sword: 1
+  SwordComboAttack: 1
+  SwordThrow: 1
+--- !u!114 &5157999864018452453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016241703392517103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68a8c19f461ea3e4d805220199eb4b9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadOnStart: 1
+  dialogue:
+    sentences:
+    - Welcome to <color=green><b>Piaku Game</b></color>, I am going to teach you
+      how to play the game..
+    - Use [<i><b>W,A,S,D</b></i>] to <color=green><b>move</b></color> around, press
+      [<i><b>SPACE</b></i>] to <color=green><b>jump</b></color>..
+--- !u!114 &4916003355171042686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016241703392517103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2ce6b91f5bb2254b9707ca25abc1aca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueText: {fileID: 0}
+  dialogueAnimator: {fileID: 0}
+  isDialogue: 1
+  delayBetweenWords: 0.03
+--- !u!114 &2674888380010685069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016241703392517103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0aa47c4c12c144db84c5ca22e338b9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

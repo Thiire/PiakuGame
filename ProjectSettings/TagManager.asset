@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - WallRideable
+  - Ground
+  - Ennemy
+  - Music
+  - MovingPlatform
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - BlueLayer
+  - RedLayer
+  - Editor Only
+  - BlueOutline
+  - RedOutline
+  - BlueEnnemy
+  - RedEnnemy
+  - PostProcessVolume
+  - CustomVolume
+  - Tools
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Trails
+    uniqueID: 187577617
+    locked: 0
